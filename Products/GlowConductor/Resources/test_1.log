@@ -1,0 +1,65 @@
+﻿1/7/2015 11:54:40 AM にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\projects\GlowConductor_ver1.01\proj.win32\test_1.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\audio\include /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\external /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /I"C:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\editor-support" /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\2d /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\2d\renderer /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\gui /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\base /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\physics /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\math\kazmath /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\2d\platform\win32 /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\cocos\2d\platform\desktop /IC:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"C:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\CPlayer.cpp
+         CPlayer.cpp
+     1>c:\projects\glowconductor_ver1.01\classes\cplayer.cpp : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\projects\glowconductor_ver1.01\classes\cplayer.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\projects\glowconductor_ver1.01\classes\cobject.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\projects\glowconductor_ver1.01\cocos2d\cocos\2d\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\projects\glowconductor_ver1.01\classes\cameratarget.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\projects\glowconductor_ver1.01\classes\customparticle.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\projects\glowconductor_ver1.01\classes\sgraphmgr.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\projects\glowconductor_ver1.01\classes\cplayer.cpp(56): warning C4996: 'cocos2d::String': が古い形式として宣言されました。
+                 c:\projects\glowconductor_ver1.01\cocos2d\cocos\2d\ccdeprecated.h(1046) : 'cocos2d::String' の宣言を確認してください。
+                 c:\projects\glowconductor_ver1.01\cocos2d\cocos\2d\ccdeprecated.h(1046) : 'cocos2d::String' の宣言を確認してください。
+     1>c:\projects\glowconductor_ver1.01\classes\cplayer.cpp(327): warning C4996: 'cocos2d::String': が古い形式として宣言されました。
+                 c:\projects\glowconductor_ver1.01\cocos2d\cocos\2d\ccdeprecated.h(1046) : 'cocos2d::String' の宣言を確認してください。
+     1>c:\projects\glowconductor_ver1.01\classes\cplayer.cpp(338): warning C4996: 'cocos2d::String': が古い形式として宣言されました。
+                 c:\projects\glowconductor_ver1.01\cocos2d\cocos\2d\ccdeprecated.h(1046) : 'cocos2d::String' の宣言を確認してください。
+       PreLinkEvent:
+         if not exist "C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\" mkdir "C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\projects\GlowConductor_ver1.01\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\"
+         :VCEnd
+         2 個のファイルをコピーしました
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\test_1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\ /LIBPATH:C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\test_1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\test_1.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\ActionFactory.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\CameraTarget.obj
+         Debug.win32\CustomFollow.obj
+         Debug.win32\CDark.obj
+         Debug.win32\CObject.obj
+         Debug.win32\Collision.obj
+         Debug.win32\CPlayer.obj
+         Debug.win32\CTouchUp.obj
+         Debug.win32\CustomParticle.obj
+         Debug.win32\FakeNode.obj
+         Debug.win32\GameBackEffectLayer.obj
+         Debug.win32\GameBackLayer.obj
+         Debug.win32\GameLayer.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\ObjectData.obj
+         Debug.win32\ObjectFactory.obj
+         Debug.win32\ObjectMgr.obj
+         Debug.win32\CustomPointEffect.obj
+         Debug.win32\ResultScene.obj
+         Debug.win32\SGraphMgr.obj
+         Debug.win32\SStageMgr.obj
+         Debug.win32\TitleScene.obj
+         Debug.win32\TouchEffect.obj
+         Debug.win32\Utility.obj
+         Debug.win32\main.obj
+         C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\libcocos2d.lib
+         C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\libAudio.lib
+         C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\libCocosStudio.lib
+         C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\libGUI.lib
+         C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\libExtensions.lib
+         C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\libchipmunk.lib
+         test_1.vcxproj -> C:\projects\GlowConductor_ver1.01\proj.win32\Debug.win32\test_1.exe
+     1>プロジェクト "C:\projects\GlowConductor_ver1.01\proj.win32\test_1.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:11.60
